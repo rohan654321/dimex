@@ -28,37 +28,37 @@ export default function ImpactSection() {
   ]
 
   return (
-    <section className="py-20">
+    <section className="py-32">
       <div className="container">
-        <div className="flex justify-between lg:items-end mb-10">
+        <div className="flex flex-col lg:flex-row justify-between lg:items-end mb-16">
           <div className="lg:basis-2/3">
-            <div className="flex items-center justify-center w-fit gap-2 py-2 pe-5 pl-1 capitalize">
-              <img src="/images/logo-icon-3.png" alt="TransRussia" className="size-auto w-5" />
-              <span>Numbers</span>
+            <div className="flex items-center justify-center w-fit gap-3 py-2 pe-5 pl-3 bg-[#F4F4F4] rounded-full mb-6">
+              <img src="/images/logo-icon-3.png" alt="TransRussia" className="size-auto w-6" />
+              <span className="text-sm font-medium">Numbers</span>
             </div>
             
-            <h2 className="text-[72px] leading-[0.9] font-bold text-black mt-5 mb-4">
+            <h2 className="text-6xl md:text-7xl lg:text-8xl font-bold text-black leading-[0.85] tracking-tight mb-8">
               TransRussia Impact
             </h2>
             
-            <p className="whitespace-pre-line text-lg max-w-3xl">
+            <p className="text-lg md:text-xl leading-relaxed max-w-3xl">
               Discover the scale and reach of TransRussia and SkladTech. From global exhibitors to thousands of visitors, explore the numbers behind the event's success
             </p>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {impacts.map((impact, index) => (
-            <div key={index} className="overflow-hidden rounded-lg bg-[#003366] text-white">
-              <div className="flex flex-col gap-5 p-5">
-                <h3 className="text-[32px] font-semibold line-clamp-1">{impact.title}</h3>
-                <div className="h-36">
-                  <p className="line-clamp-6 whitespace-pre-line">{impact.content}</p>
+            <div key={index} className="overflow-hidden rounded-2xl bg-[#003366] text-white">
+              <div className="flex flex-col gap-6 p-8">
+                <h3 className="text-2xl md:text-3xl font-bold leading-tight">{impact.title}</h3>
+                <div className="min-h-24">
+                  <p className="text-lg leading-relaxed">{impact.content}</p>
                 </div>
               </div>
               
               <div className="flex flex-col">
-                <div className="relative h-96">
+                <div className="relative h-80">
                   <div 
                     className="size-full object-cover"
                     style={{
@@ -69,10 +69,10 @@ export default function ImpactSection() {
                   />
                 </div>
                 
-                <div className="flex justify-between bg-[#003366] p-5">
+                <div className="flex justify-between bg-[#003366] p-8">
                   <div className="flex grow flex-col">
-                    <h4 className="text-[32px] font-bold">{impact.stat.value}</h4>
-                    <p>{impact.stat.label}</p>
+                    <h4 className="text-4xl md:text-5xl font-bold mb-2">{impact.stat.value}</h4>
+                    <p className="text-lg">{impact.stat.label}</p>
                   </div>
                 </div>
               </div>

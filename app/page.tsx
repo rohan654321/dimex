@@ -1,4 +1,6 @@
 // app/page.tsx
+'use client';
+
 import HeroSection from '@/components/HeroSection'
 import AboutSection from '@/components/AboutSection'
 import SkladTechSection from '@/components/SkladTechSection'
@@ -15,7 +17,7 @@ import PartnersSection from '@/components/PartnersSection'
 
 export default function Home() {
   return (
-    <main className="font-parabolica antialiased">
+    <main className="font-parabolica antialiased overflow-hidden">
       <HeroSection />
       <AboutSection />
       <SkladTechSection />
