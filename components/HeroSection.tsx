@@ -24,25 +24,51 @@ export default function HeroSection() {
             TransRussia <span className="text-[#33A8DF]">2026</span>
           </h1>
           
-          <div className="flex flex-wrap items-end justify-between gap-5">
-            <div className="max-w-2xl">
-              <h2 className="text-4xl font-bold mb-4 hero-element">
+<div className="mt-8 flex items-center justify-between gap-10">
+            {/* LEFT TEXT */}
+            <div className="max-w-none">
+              <h2
+                // ref={subtitleRef}
+                className="mb-6 whitespace-nowrap text-3xl font-bold leading-tight sm:whitespace-normal"
+              >
                 Where global logistics companies connect with CIS market leaders
               </h2>
-              <ul className="space-y-2 text-lg hero-element">
-                <li>• 30th Edition of the International Exhibition for Transport & Logistics Services, Warehouse Equipment, and Technologies</li>
-                <li>• 5th Edition of SkladTech Leading B2B Exhibition for Warehouse Equipment</li>
+
+              <ul
+                // ref={listRef}
+                className="space-y-4 text-lg"
+              >
+                <li className="flex gap-3 whitespace-nowrap sm:whitespace-normal">
+                  <span className="text-[#33A8DF]">•</span>
+                  <span>
+                    30th Edition of the International Exhibition for Transport & Logistics Services, Warehouse Equipment, and Technologies
+                  </span>
+                </li>
+
+                <li className="flex gap-3 whitespace-nowrap sm:whitespace-normal">
+                  <span className="text-[#33A8DF]">•</span>
+                  <span>
+                    5th Edition of SkladTech Leading B2B Exhibition for Warehouse Equipment
+                  </span>
+                </li>
               </ul>
             </div>
-            
-            <div className="space-y-5">
-              <a href="/exhibiting-enquiry" className="hero-element shrink-0">
-                <button className="flex items-center justify-center group gap-2 overflow-hidden rounded-full px-10 py-3 font-jakarta text-[16px] font-semibold transition-all duration-300 bg-[#0092D7] text-white hover:bg-[#33A8DF] w-fit">
+
+            {/* CTA */}
+            <div className="shrink-0">
+              <a href="/exhibiting-enquiry">
+                <button
+                  // ref={buttonRef}
+                  className="rounded-full bg-[#33A8DF] px-12 py-4 text-lg font-semibold text-white transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-[#33A8DF]/40"
+                >
                   Book Your Stand
                 </button>
               </a>
             </div>
           </div>
+        
+
+
         </div>
       </div>
     </section>

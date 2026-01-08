@@ -36,7 +36,7 @@ const WhyExhibitPage = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-black"></div>
             <Image 
               alt="TransRussia©24" 
-              src="/Trans_Russia_heading_c711a6e7b3.webp"
+              src="/images/image.png"
               fill
               className="size-full object-cover"
               style={{ color: 'transparent' }}
@@ -74,7 +74,7 @@ const WhyExhibitPage = () => {
               <div className="z-[1] relative flex size-full min-h-[500px] flex-col p-5 lg:p-10">
                 <Image 
                   alt="TransRussia©24" 
-                  src="/Trans_Russia_670_x_500_4_86ec0c31db.webp"
+                  src="/images/image.png"
                   fill
                   className="absolute inset-0 size-full object-cover"
                   style={{ color: 'transparent' }}
@@ -96,7 +96,7 @@ const WhyExhibitPage = () => {
               <div className="flex-center w-fit gap-2 py-2 pe-5 pl-1 capitalize">
                 <Image 
                   alt="TransRussia©24" 
-                  src="/imgs/logo-icon-3.png"
+                  src="/images/image.png"
                   width={20}
                   height={20}
                   className="size-auto w-5"
@@ -116,7 +116,7 @@ const WhyExhibitPage = () => {
                   <h3 className="font-semibold text-black">Want to grow internationally?</h3>
                   <Image 
                     alt="TransRussia©24" 
-                    src="/social_impact_16871280_aa26919271.png"
+                    src="/images/image.png"
                     width={40}
                     height={40}
                     className="size-10"
@@ -131,7 +131,7 @@ const WhyExhibitPage = () => {
                   <h3 className="font-semibold text-black">Facing challenges entering the market?</h3>
                   <Image 
                     alt="TransRussia©24" 
-                    src="/buyer_2640543_cf26288352.png"
+                    src="/images/image.png"
                     width={40}
                     height={40}
                     className="size-10"
@@ -161,7 +161,7 @@ const WhyExhibitPage = () => {
                   <h3 className="font-semibold text-black">Struggling to measure impact?</h3>
                   <Image 
                     alt="TransRussia©24" 
-                    src="/conversion_12914581_4afbefb14b.png"
+                    src="/images/image.png"
                     width={40}
                     height={40}
                     className="size-10"
@@ -176,7 +176,7 @@ const WhyExhibitPage = () => {
                   <h3 className="font-semibold text-black">Concerned about the cost and complexity of logistics in Eurasia?</h3>
                   <Image 
                     alt="TransRussia©24" 
-                    src="/opportunity_12031315_930cd3c845.png"
+                    src="/images/image.png"
                     width={40}
                     height={40}
                     className="size-10"
@@ -191,7 +191,7 @@ const WhyExhibitPage = () => {
                   <h3 className="font-semibold text-black">Is your brand struggling to get noticed?</h3>
                   <Image 
                     alt="TransRussia©24" 
-                    src="/worldwide_750473_9e738dea0d.png"
+                    src="/images/image.png"
                     width={40}
                     height={40}
                     className="size-10"
@@ -218,7 +218,7 @@ const WhyExhibitPage = () => {
               <div className="z-[1] relative flex size-full min-h-[500px] flex-col p-5 lg:p-10 before:content-[''] text-white before:absolute before:inset-0 before:z-[1] before:from-black before:bg-gradient-to-b">
                 <Image 
                   alt="TransRussia©24" 
-                  src="/logistics_transportation_container_cargo_ship_cargo_plane_with_working_crane_bridge_shipyard_sunrise_logistic_import_export_transport_industry_background_ai_generative_2d16d2f122.jpg"
+                  src="/images/image.png"
                   fill
                   className="absolute inset-0 size-full object-cover"
                   style={{ color: 'transparent' }}
@@ -232,7 +232,7 @@ const WhyExhibitPage = () => {
               <div className="z-[1] relative flex size-full min-h-[500px] flex-col p-5 lg:p-10 before:content-[''] text-white before:absolute before:inset-0 before:z-[1] before:from-black before:bg-gradient-to-b">
                 <Image 
                   alt="TransRussia©24" 
-                  src="/view_full_warehouse_with_forklift_cc41fba80e.jpg"
+                  src="/images/image.png"
                   fill
                   className="absolute inset-0 size-full object-cover"
                   style={{ color: 'transparent' }}
@@ -246,7 +246,7 @@ const WhyExhibitPage = () => {
               <div className="z-[1] relative flex size-full min-h-[500px] flex-col p-5 lg:p-10 before:content-[''] text-white before:absolute before:inset-0 before:z-[1] before:from-black before:bg-gradient-to-b">
                 <Image 
                   alt="TransRussia©24" 
-                  src="/ship_drydock_061f5880cd.jpg"
+                  src="/images/image.png"
                   fill
                   className="absolute inset-0 size-full object-cover"
                   style={{ color: 'transparent' }}
@@ -270,7 +270,7 @@ const WhyExhibitPage = () => {
                 <div className="flex-center w-fit gap-2 py-2 pe-5 pl-1 capitalize">
                   <Image 
                     alt="TransRussia©24" 
-                    src="/imgs/logo-icon-3.png"
+                    src="/images/image.png"
                     width={20}
                     height={20}
                     className="size-auto w-5"
@@ -291,7 +291,7 @@ const WhyExhibitPage = () => {
               <Link href="/sectors/complex-logistics-services-and-freight-forwarding" className="group relative flex min-h-[600px] w-full flex-col justify-end overflow-hidden p-5 text-white">
                 <Image 
                   alt="TransRussia©24" 
-                  src="/Untitled_design_16_ff2396a005.png"
+                  src="/images/image.png"
                   fill
                   className="absolute inset-0 z-[-2] size-full object-cover"
                   style={{ color: 'transparent' }}
@@ -304,7 +304,7 @@ const WhyExhibitPage = () => {
               <Link href="/sectors/maritime-and-inland-waterway-transport" className="group relative flex min-h-[600px] w-full flex-col justify-end overflow-hidden p-5 text-white">
                 <Image 
                   alt="TransRussia©24" 
-                  src="/TRU_Sectors_Images_7_c75137da32.png"
+                  src="/images/image.png"
                   fill
                   className="absolute inset-0 z-[-2] size-full object-cover"
                   style={{ color: 'transparent' }}
@@ -317,7 +317,7 @@ const WhyExhibitPage = () => {
               <Link href="/sectors/air-freight" className="group relative flex min-h-[600px] w-full flex-col justify-end overflow-hidden p-5 text-white">
                 <Image 
                   alt="TransRussia©24" 
-                  src="/TRU_Sectors_Images_3_9089d75ec1.png"
+                  src="/images/image.png"
                   fill
                   className="absolute inset-0 z-[-2] size-full object-cover"
                   style={{ color: 'transparent' }}
@@ -330,7 +330,7 @@ const WhyExhibitPage = () => {
               <Link href="/sectors/ports-and-terminals-freight-handling-services-in-ports" className="group relative flex min-h-[600px] w-full flex-col justify-end overflow-hidden p-5 text-white">
                 <Image 
                   alt="TransRussia©24" 
-                  src="/httpstransrussia_preview_prismetic_comterms_of_visiting_1200_x_490_px_a78a81f1aa.png"
+                  src="/images/image.png"
                   fill
                   className="absolute inset-0 z-[-2] size-full object-cover"
                   style={{ color: 'transparent' }}
@@ -343,7 +343,7 @@ const WhyExhibitPage = () => {
               <Link href="/sectors/rail-freight" className="group relative flex min-h-[600px] w-full flex-col justify-end overflow-hidden p-5 text-white">
                 <Image 
                   alt="TransRussia©24" 
-                  src="/TRU_Sectors_Images_4_b89e6f82a3.png"
+                  src="/images/image.png"
                   fill
                   className="absolute inset-0 z-[-2] size-full object-cover"
                   style={{ color: 'transparent' }}
@@ -356,7 +356,7 @@ const WhyExhibitPage = () => {
               <Link href="/sectors/road-freight-transportation" className="group relative flex min-h-[600px] w-full flex-col justify-end overflow-hidden p-5 text-white">
                 <Image 
                   alt="TransRussia©24" 
-                  src="/TRU_Sectors_Images_5_46a97403ad.png"
+                  src="/images/image.png"
                   fill
                   className="absolute inset-0 z-[-2] size-full object-cover"
                   style={{ color: 'transparent' }}
@@ -377,7 +377,7 @@ const WhyExhibitPage = () => {
             <div className="relative z-[1] min-h-[300px] w-full space-y-5 overflow-hidden rounded-3xl bg-mainColor1 p-5 max-lg:pb-60 lg:p-10">
               <Image 
                 alt="TransRussia©24" 
-                src="/Brochure_Mockup_8_f53822fd4a.png"
+                src="/images/image.png"
                 width={400}
                 height={300}
                 className="size-auto absolute bottom-0 right-0"
@@ -406,7 +406,7 @@ const WhyExhibitPage = () => {
                 <div className="flex-center w-fit gap-2 py-2 pe-5 pl-1 capitalize">
                   <Image 
                     alt="TransRussia©24" 
-                    src="/imgs/logo-icon-3.png"
+                    src="/images/image.png"
                     width={20}
                     height={20}
                     className="size-auto w-5"
@@ -419,7 +419,7 @@ const WhyExhibitPage = () => {
               <div>
                 <Image 
                   alt="TransRussia©24" 
-                  src="/imgs/quote-img.png"
+                  src="/images/image.png"
                   width={100}
                   height={100}
                   className="size-auto max-lg:hidden"
@@ -445,7 +445,7 @@ const WhyExhibitPage = () => {
                 <div role="group" aria-roledescription="slide" className="min-w-0 shrink-0 grow-0 basis-full pl-4 flex gap-10 max-lg:flex-col lg:items-center lg:gap-20">
                   <Image 
                     alt="TransRussia©24" 
-                    src="/Untitled_500_x_500_px_09501a15d8.png"
+                    src="/images/image.png"
                     width={330}
                     height={330}
                     className="size-auto w-full object-cover lg:size-[330px]"
@@ -535,7 +535,7 @@ const WhyExhibitPage = () => {
           <div className="xl:!py-62 relative !py-40">
             <Image 
               alt="TransRussia©24" 
-              src="/Frame_1707480883_b10f284c3d.jpg"
+              src="/images/image.png"
               fill
               className="absolute inset-0 z-[-1] size-full object-cover"
               style={{ color: 'transparent' }}
@@ -560,7 +560,7 @@ const WhyExhibitPage = () => {
                 <div className="flex-center w-fit gap-2 py-2 pe-5 pl-1 capitalize">
                   <Image 
                     alt="TransRussia©24" 
-                    src="/imgs/logo-icon-3.png"
+                    src="/images/image.png"
                     width={20}
                     height={20}
                     className="size-auto w-5"
@@ -578,7 +578,7 @@ const WhyExhibitPage = () => {
                 <div className="flex-between">
                   <Image 
                     alt="TransRussia©24" 
-                    src="/TR_24_IMG_1001i_81aab0ef5c.jpg"
+                    src="/images/image.png"
                     width={64}
                     height={64}
                     className="mb-5 size-16 rounded-full object-cover"
@@ -597,7 +597,7 @@ const WhyExhibitPage = () => {
                 <div className="flex-between">
                   <Image 
                     alt="TransRussia©24" 
-                    src="/Brochure_Mockup_8_f53822fd4a.png"
+                    src="/images/image.png"
                     width={64}
                     height={64}
                     className="mb-5 size-16 rounded-full object-cover"
@@ -616,7 +616,7 @@ const WhyExhibitPage = () => {
                 <div className="flex-between">
                   <Image 
                     alt="TransRussia©24" 
-                    src="/main_2669dac4e0.jpg"
+                    src="/images/image.png"
                     width={64}
                     height={64}
                     className="mb-5 size-16 rounded-full object-cover"
@@ -634,7 +634,7 @@ const WhyExhibitPage = () => {
             
             <Image 
               alt="TransRussia©24" 
-              src="/imgs/shape.png"
+              src="/images/image.png"
               width={900}
               height={900}
               className="absolute right-0 top-0 z-[-1] size-[900px] object-contain"
@@ -688,7 +688,7 @@ const WhyExhibitPage = () => {
                         <div className="h-40 w-full overflow-hidden rounded-lg px-10 py-5 shadow-lg">
                           <Image 
                             alt="TransRussia©24" 
-                            src="/APACE_Digital_Cargo_523bc2c2a2.webp"
+                            src="/images/image.png"
                             width={200}
                             height={80}
                             className="size-full object-contain"
